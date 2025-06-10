@@ -1,0 +1,63 @@
+copper-conversion:
+  enabled: true
+  resource-type: COPPER_INGOT
+  sound-effect: ENTITY_PLAYER_BURP
+  cure-conversion-time-ticks: 0
+  worlds:
+    - world
+    - world_nether
+    - world_the_end
+  allowed-professions:
+    - ARMORER
+    - BUTCHER
+    - CARTOGRAPHER
+    - CLERIC
+    - FARMER
+    - FISHERMAN
+    - FLETCHER
+    - LEATHERWORKER
+    - LIBRARIAN
+    - MASON
+    - SHEPHERD
+    - TOOLSMITH
+    - WEAPONSMITH
+  trade-currency-multipliers:
+    ARMORER:
+      input-multiplier: 2
+      output-multiplier: 1
+    BUTCHER:
+      input-multiplier: 2
+      output-multiplier: 1
+    CARTOGRAPHER:
+      input-multiplier: 2
+      output-multiplier: 1
+    CLERIC:
+      input-multiplier: 2
+      output-multiplier: 1
+    FARMER:
+      input-multiplier: 2
+      output-multiplier: 1
+    FISHERMAN:
+      input-multiplier: 2
+      output-multiplier: 1
+    FLETCHER:
+      input-multiplier: 2
+      output-multiplier: 1
+    LEATHERWORKER:
+      input-multiplier: 2
+      output-multiplier: 1
+    LIBRARIAN:
+      input-multiplier: 2
+      output-multiplier: 1
+    MASON:
+      input-multiplier: 2
+      output-multiplier: 1
+    SHEPHERD:
+      input-multiplier: 2
+      output-multiplier: 1
+    TOOLSMITH:
+      input-multiplier: 2
+      output-multiplier: 1
+    WEAPONSMITH:
+      input-multiplier: 2
+      output-multiplier: 1

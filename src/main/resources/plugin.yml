@@ -1,0 +1,7 @@
+name: CopperEconomy
+authors: [Cleopatra_Vll]
+version: 0.1
+main: org.oldskooler.coppereconomy.CopperEconomy
+api-version: 1.21
+folia-supported: true
+description: Allows cured villagers to trade for copper instead of emeralds.
