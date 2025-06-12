@@ -2,7 +2,7 @@ copper-conversion:
   enabled: true
   resource-type: COPPER_INGOT
   sound-effect: ENTITY_PLAYER_BURP
-  cure-conversion-time-ticks: 0
+  cure-conversion-time-ticks: 100
   worlds:
     - world
     - world_nether
