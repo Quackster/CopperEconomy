@@ -39,9 +39,9 @@ public class VillagerListener implements Listener {
      *
      * @param plugin The main plugin instance.
      */
-    public VillagerListener(CopperEconomy plugin, CopperConfig config) {
+    public VillagerListener(CopperEconomy plugin) {
         this.plugin = plugin;
-        this.config = config;
+        this.config = plugin.getSettings();
         this.COPPER_READY = new NamespacedKey(plugin, "copper_ready");
         this.ACCEPTS_COPPER = new NamespacedKey(plugin, "accepts_copper");
     }

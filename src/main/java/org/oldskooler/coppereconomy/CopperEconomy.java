@@ -17,18 +17,26 @@ import java.util.logging.Logger;
  * </ul>
  */
 public class CopperEconomy extends JavaPlugin {
-    private static final int BSTATS_PLUGIN_ID = 26080;
+    private static final int BSTATS_PLUGIN_ID = 26173;
 
     private Logger logger;
     private Metrics metrics;
+    private CopperConfig config;
 
     @Override
     public void onEnable() {
+        metrics = new Metrics(this, BSTATS_PLUGIN_ID);
+
+        config = new CopperConfig(this);
         logger = getLogger();
 
-        getServer().getPluginManager().registerEvents(new VillagerListener(this, new CopperConfig(this)), this);
+        getServer().getPluginManager().registerEvents(new VillagerListener(this), this);
     }
 
     @Override
     public void onDisable() { }
+
+    public CopperConfig getSettings() {
+        return config;
+    }
 }
